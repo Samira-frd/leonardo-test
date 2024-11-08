@@ -5,9 +5,9 @@ import { ChakraProvider } from "@chakra-ui/react";
 import UserModal from "./components/UserModal";
 import InformationPage from "./components/InformationPage";
 
-// Apollo Client Setup
+
 const client = new ApolloClient({
-  uri: process.env.NEXT_PUBLIC_API_URL, // Example GraphQL API
+  uri: process.env.NEXT_PUBLIC_API_URL, 
   cache: new InMemoryCache(),
 });
 
